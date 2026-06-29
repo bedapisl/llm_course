@@ -115,8 +115,6 @@ def fifth():
         if result not in text_results:
             print(f"Fifth answer: {result["filename"]}")
 
-    import pdb; pdb.set_trace()
-
 
 def rrf(result_lists, k=60, num_results=5):
     scores = {}
